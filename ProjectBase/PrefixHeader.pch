@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  ProjectBase
+//
+//  Created by dym on 2017/6/29.
+//  Copyright © 2017年 dym. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+#import "MBProgressHUD.h"
+
+#import "UIColor+Color.h"
+#import "UIButton+XBAlignment.h"
+
+#import "TSShareHelper.h"
+
+
+#define XBAPPBaseColor  RGBColor(235, 49, 58)
+
+// 屏幕高度
+#define SCREEN_HEIGHT         [[UIScreen mainScreen] bounds].size.height
+// 屏幕宽度
+#define SCREEN_WIDTH          [[UIScreen mainScreen] bounds].size.width
+
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+
+#endif /* PrefixHeader_pch */
