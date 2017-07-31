@@ -35,6 +35,7 @@
 		30790C011F04DE8000048A76 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30790C001F04DE8000048A76 /* HomeViewController.m */; };
 		30790C071F04E22E00048A76 /* TSShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 30790C061F04E22E00048A76 /* TSShareHelper.m */; };
 		30790C0A1F04E6BC00048A76 /* UIImage+UIImageEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 30790C091F04E6BC00048A76 /* UIImage+UIImageEx.m */; };
+		30A95AF11F2F26F900DD9F4D /* UIControl+Click.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A95AF01F2F26F900DD9F4D /* UIControl+Click.m */; };
 		DDB1BFBE700A38A75F9FA677 /* Pods_ProjectBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09B7B5B65681DDBE5373636 /* Pods_ProjectBase.framework */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +114,8 @@
 		30790C061F04E22E00048A76 /* TSShareHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSShareHelper.m; sourceTree = "<group>"; };
 		30790C081F04E6BC00048A76 /* UIImage+UIImageEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImageEx.h"; sourceTree = "<group>"; };
 		30790C091F04E6BC00048A76 /* UIImage+UIImageEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIImageEx.m"; sourceTree = "<group>"; };
+		30A95AEF1F2F26F900DD9F4D /* UIControl+Click.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Click.h"; sourceTree = "<group>"; };
+		30A95AF01F2F26F900DD9F4D /* UIControl+Click.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Click.m"; sourceTree = "<group>"; };
 		B00CE8A4269A9F2466651067 /* Pods-ProjectBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectBase/Pods-ProjectBase.release.xcconfig"; sourceTree = "<group>"; };
 		B09B7B5B65681DDBE5373636 /* Pods_ProjectBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D454BF577189D5B7C8A2A201 /* Pods-ProjectBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectBase/Pods-ProjectBase.debug.xcconfig"; sourceTree = "<group>"; };
@@ -299,6 +302,8 @@
 		30790BF21F04A2E700048A76 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				30A95AEF1F2F26F900DD9F4D /* UIControl+Click.h */,
+				30A95AF01F2F26F900DD9F4D /* UIControl+Click.m */,
 				30790BF31F04A2FE00048A76 /* UIButton+XBAlignment.h */,
 				30790BF41F04A2FE00048A76 /* UIButton+XBAlignment.m */,
 				30790BF51F04A2FE00048A76 /* UIColor+Color.h */,
@@ -543,6 +548,7 @@
 				30790BE41F04A0B100048A76 /* XBNavigationController.m in Sources */,
 				30790BEA1F04A0B100048A76 /* XBArrowSettingItem.m in Sources */,
 				30790BE31F04A0B100048A76 /* XBBaseTableViewCell.m in Sources */,
+				30A95AF11F2F26F900DD9F4D /* UIControl+Click.m in Sources */,
 				30790BE61F04A0B100048A76 /* XBRequestNetTool.m in Sources */,
 				30790B591F04976300048A76 /* main.m in Sources */,
 				30790C0A1F04E6BC00048A76 /* UIImage+UIImageEx.m in Sources */,
